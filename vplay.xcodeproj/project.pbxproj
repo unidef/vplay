@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF0000000000000000000200 /* Vendor/FFmpeg/lib/libavutil.61.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0000000000000000000100 /* Vendor/FFmpeg/lib/libavutil.61.dylib */; };
+		DF0000000000000000000201 /* Vendor/FFmpeg/lib/libswresample.7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0000000000000000000101 /* Vendor/FFmpeg/lib/libswresample.7.dylib */; };
+		DF0000000000000000000202 /* Vendor/FFmpeg/lib/libavcodec.63.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0000000000000000000102 /* Vendor/FFmpeg/lib/libavcodec.63.dylib */; };
+		DF0000000000000000000203 /* Vendor/FFmpeg/lib/libavformat.63.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0000000000000000000103 /* Vendor/FFmpeg/lib/libavformat.63.dylib */; };
+		DF0000000000000000000204 /* Vendor/FFmpeg/lib/libswscale.10.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0000000000000000000104 /* Vendor/FFmpeg/lib/libswscale.10.dylib */; };
+		DF0000000000000000000205 /* Vendor/FFmpeg/lib/libavfilter.12.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0000000000000000000105 /* Vendor/FFmpeg/lib/libavfilter.12.dylib */; };
+		DF0000000000000000000300 /* Vendor/FFmpeg/lib/libavutil.61.dylib in Embed FFmpeg Libraries */ = {isa = PBXBuildFile; fileRef = DF0000000000000000000100 /* Vendor/FFmpeg/lib/libavutil.61.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		DF0000000000000000000301 /* Vendor/FFmpeg/lib/libswresample.7.dylib in Embed FFmpeg Libraries */ = {isa = PBXBuildFile; fileRef = DF0000000000000000000101 /* Vendor/FFmpeg/lib/libswresample.7.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		DF0000000000000000000302 /* Vendor/FFmpeg/lib/libavcodec.63.dylib in Embed FFmpeg Libraries */ = {isa = PBXBuildFile; fileRef = DF0000000000000000000102 /* Vendor/FFmpeg/lib/libavcodec.63.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		DF0000000000000000000303 /* Vendor/FFmpeg/lib/libavformat.63.dylib in Embed FFmpeg Libraries */ = {isa = PBXBuildFile; fileRef = DF0000000000000000000103 /* Vendor/FFmpeg/lib/libavformat.63.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		DF0000000000000000000304 /* Vendor/FFmpeg/lib/libswscale.10.dylib in Embed FFmpeg Libraries */ = {isa = PBXBuildFile; fileRef = DF0000000000000000000104 /* Vendor/FFmpeg/lib/libswscale.10.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		DF0000000000000000000305 /* Vendor/FFmpeg/lib/libavfilter.12.dylib in Embed FFmpeg Libraries */ = {isa = PBXBuildFile; fileRef = DF0000000000000000000105 /* Vendor/FFmpeg/lib/libavfilter.12.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		DF0000000000000000000401 /* FFmpeg Legal in Resources */ = {isa = PBXBuildFile; fileRef = DF0000000000000000000400 /* FFmpeg Legal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DF0000000000000000000500 /* Embed FFmpeg Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DF0000000000000000000300 /* Vendor/FFmpeg/lib/libavutil.61.dylib in Embed FFmpeg Libraries */,
+				DF0000000000000000000301 /* Vendor/FFmpeg/lib/libswresample.7.dylib in Embed FFmpeg Libraries */,
+				DF0000000000000000000302 /* Vendor/FFmpeg/lib/libavcodec.63.dylib in Embed FFmpeg Libraries */,
+				DF0000000000000000000303 /* Vendor/FFmpeg/lib/libavformat.63.dylib in Embed FFmpeg Libraries */,
+				DF0000000000000000000304 /* Vendor/FFmpeg/lib/libswscale.10.dylib in Embed FFmpeg Libraries */,
+				DF0000000000000000000305 /* Vendor/FFmpeg/lib/libavfilter.12.dylib in Embed FFmpeg Libraries */,
+			);
+			name = "Embed FFmpeg Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B10000000000000000000003 /* vplay/Utilities/VPSkin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vplay/Utilities/VPSkin.m; sourceTree = SOURCE_ROOT; };
+		DF0000000000000000000100 /* Vendor/FFmpeg/lib/libavutil.61.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = Vendor/FFmpeg/lib/libavutil.61.dylib; sourceTree = SOURCE_ROOT; };
+		DF0000000000000000000101 /* Vendor/FFmpeg/lib/libswresample.7.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = Vendor/FFmpeg/lib/libswresample.7.dylib; sourceTree = SOURCE_ROOT; };
+		DF0000000000000000000102 /* Vendor/FFmpeg/lib/libavcodec.63.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = Vendor/FFmpeg/lib/libavcodec.63.dylib; sourceTree = SOURCE_ROOT; };
+		DF0000000000000000000103 /* Vendor/FFmpeg/lib/libavformat.63.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = Vendor/FFmpeg/lib/libavformat.63.dylib; sourceTree = SOURCE_ROOT; };
+		DF0000000000000000000104 /* Vendor/FFmpeg/lib/libswscale.10.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = Vendor/FFmpeg/lib/libswscale.10.dylib; sourceTree = SOURCE_ROOT; };
+		DF0000000000000000000105 /* Vendor/FFmpeg/lib/libavfilter.12.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = Vendor/FFmpeg/lib/libavfilter.12.dylib; sourceTree = SOURCE_ROOT; };
+		DF0000000000000000000400 /* FFmpeg Legal */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "FFmpeg Legal"; path = Vendor/FFmpeg/Legal; sourceTree = SOURCE_ROOT; };
+		FCA28E832F9E29A3008C1D3C /* Mac Video Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mac Video Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B10000000000000000000030 /* Exceptions for "vplay" folder in "vplay" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = FCA28E822F9E29A3008C1D3C /* vplay */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FCA28E852F9E29A3008C1D3C /* vplay */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B10000000000000000000030 /* Exceptions for "vplay" folder in "vplay" target */,
+			);
+			path = vplay;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCA28E802F9E29A3008C1D3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0000000000000000000200 /* Vendor/FFmpeg/lib/libavutil.61.dylib in Frameworks */,
+				DF0000000000000000000201 /* Vendor/FFmpeg/lib/libswresample.7.dylib in Frameworks */,
+				DF0000000000000000000202 /* Vendor/FFmpeg/lib/libavcodec.63.dylib in Frameworks */,
+				DF0000000000000000000203 /* Vendor/FFmpeg/lib/libavformat.63.dylib in Frameworks */,
+				DF0000000000000000000204 /* Vendor/FFmpeg/lib/libswscale.10.dylib in Frameworks */,
+				DF0000000000000000000205 /* Vendor/FFmpeg/lib/libavfilter.12.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCA28E7A2F9E29A3008C1D3C = {
+			isa = PBXGroup;
+			children = (
+				DF0000000000000000000100 /* Vendor/FFmpeg/lib/libavutil.61.dylib */,
+				DF0000000000000000000101 /* Vendor/FFmpeg/lib/libswresample.7.dylib */,
+				DF0000000000000000000102 /* Vendor/FFmpeg/lib/libavcodec.63.dylib */,
+				DF0000000000000000000103 /* Vendor/FFmpeg/lib/libavformat.63.dylib */,
+				DF0000000000000000000104 /* Vendor/FFmpeg/lib/libswscale.10.dylib */,
+				DF0000000000000000000105 /* Vendor/FFmpeg/lib/libavfilter.12.dylib */,
+				DF0000000000000000000400 /* FFmpeg Legal */,
+				FCA28E852F9E29A3008C1D3C /* vplay */,
+				FCA28E842F9E29A3008C1D3C /* Products */,
+				FCBC173F3088E54600AC9D73 /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		FCA28E842F9E29A3008C1D3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCA28E832F9E29A3008C1D3C /* Mac Video Player.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCBC173F3088E54600AC9D73 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000003 /* vplay/Utilities/VPSkin.m */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCA28E822F9E29A3008C1D3C /* vplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA28E8A2F9E29A3008C1D3C /* Build configuration list for PBXNativeTarget "vplay" */;
+			buildPhases = (
+				FCA28E7F2F9E29A3008C1D3C /* Sources */,
+				FCA28E802F9E29A3008C1D3C /* Frameworks */,
+				B10000000000000000000021 /* Resources */,
+				DF0000000000000000000500 /* Embed FFmpeg Libraries */,
+				DF0000000000000000000600 /* Generate FFmpeg dSYMs */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FCA28E852F9E29A3008C1D3C /* vplay */,
+			);
+			name = vplay;
+			packageProductDependencies = (
+			);
+			productName = vplay;
+			productReference = FCA28E832F9E29A3008C1D3C /* Mac Video Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCA28E7B2F9E29A3008C1D3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 9999;
+				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					FCA28E822F9E29A3008C1D3C = {
+						CreatedOnToolsVersion = 27.1;
+					};
+				};
+			};
+			buildConfigurationList = FCA28E7E2F9E29A3008C1D3C /* Build configuration list for PBXProject "vplay" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCA28E7A2F9E29A3008C1D3C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FCA28E842F9E29A3008C1D3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCA28E822F9E29A3008C1D3C /* vplay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B10000000000000000000021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0000000000000000000401 /* FFmpeg Legal in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DF0000000000000000000600 /* Generate FFmpeg dSYMs */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Generate FFmpeg dSYMs";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# The prebuilt FFmpeg dylibs ship without dSYMs, which makes App Store Connect\n# report \"Upload Symbols Failed\" for every one of them. Generate a dSYM per dylib\n# (same UUIDs as the embedded copy) so the archive always contains them.\nif [ \"${DEBUG_INFORMATION_FORMAT}\" != \"dwarf-with-dsym\" ]; then\n  exit 0\nfi\nmkdir -p \"${DWARF_DSYM_FOLDER_PATH}\"\nfor lib in \"${FFMPEG_ROOT}\"/lib/*.dylib; do\n  name=$(basename \"$lib\")\n  rm -rf \"${DWARF_DSYM_FOLDER_PATH}/${name}.dSYM\"\n  /usr/bin/dsymutil \"$lib\" -o \"${DWARF_DSYM_FOLDER_PATH}/${name}.dSYM\" 2>/dev/null || exit 1\ndone\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCA28E7F2F9E29A3008C1D3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FCA28E882F9E29A3008C1D3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 4T482Q84C7;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = (
+					"$(inherited)",
+					"-Wno-documentation",
+				);
+			};
+			name = Debug;
+		};
+		FCA28E892F9E29A3008C1D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4T482Q84C7;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = (
+					"$(inherited)",
+					"-Wno-documentation",
+				);
+			};
+			name = Release;
+		};
+		FCA28E8B2F9E29A3008C1D3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = vplay/vplay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 600;
+				DEVELOPMENT_TEAM = 4T482Q84C7;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FFMPEG_ROOT = "$(SRCROOT)/Vendor/FFmpeg";
+				GENERATE_INFOPLIST_FILE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FFMPEG_ROOT)/include",
+				);
+				INFOPLIST_FILE = vplay/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mac Video Player";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
+				INSTALL_PATH = /Applications;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FFMPEG_ROOT)/lib",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathanmaharaj.vplay;
+				PRODUCT_NAME = "Mac Video Player";
+				SKIP_INSTALL = NO;
+				WARNING_CFLAGS = (
+					"$(inherited)",
+					"-Wno-documentation",
+				);
+			};
+			name = Debug;
+		};
+		FCA28E8C2F9E29A3008C1D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = vplay/vplay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 600;
+				DEVELOPMENT_TEAM = 4T482Q84C7;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FFMPEG_ROOT = "$(SRCROOT)/Vendor/FFmpeg";
+				GENERATE_INFOPLIST_FILE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FFMPEG_ROOT)/include",
+				);
+				INFOPLIST_FILE = vplay/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mac Video Player";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
+				INSTALL_PATH = /Applications;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FFMPEG_ROOT)/lib",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathanmaharaj.vplay;
+				PRODUCT_NAME = "Mac Video Player";
+				SKIP_INSTALL = NO;
+				WARNING_CFLAGS = (
+					"$(inherited)",
+					"-Wno-documentation",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCA28E7E2F9E29A3008C1D3C /* Build configuration list for PBXProject "vplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA28E882F9E29A3008C1D3C /* Debug */,
+				FCA28E892F9E29A3008C1D3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA28E8A2F9E29A3008C1D3C /* Build configuration list for PBXNativeTarget "vplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA28E8B2F9E29A3008C1D3C /* Debug */,
+				FCA28E8C2F9E29A3008C1D3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCA28E7B2F9E29A3008C1D3C /* Project object */;
+}

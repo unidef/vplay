@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIconName</key>
+	<string>AppIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleName</key>
+	<string>Mac Video Player</string>
+	<key>CFBundleDisplayName</key>
+	<string>Mac Video Player</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.video</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>Media</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSHandlerRank</key>
+			<string>Alternate</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>public.movie</string>
+				<string>public.audio</string>
+				<string>public.audiovisual-content</string>
+				<string>public.mpeg-2-transport-stream</string>
+				<string>public.playlist</string>
+				<string>public.m3u-playlist</string>
+				<string>public.folder</string>
+			</array>
+		</dict>
+	</array>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2026 Mac Video Player contributors. Released under the GNU General Public License v3.0 (GPLv3). Uses FFmpeg (LGPL/GPL).</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSRemovableVolumesUsageDescription</key>
+	<string>Mac Video Player reads DVD, Blu-ray, VCD and SVCD discs from removable volumes.</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_airplay._tcp</string>
+		<string>_raop._tcp</string>
+	</array>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>vplay discovers AirPlay receivers on your local network.</string>
+</dict>
+</plist>

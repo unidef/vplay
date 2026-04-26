@@ -1,0 +1,30 @@
+vplay includes FFmpeg 9.0.2, Copyright (c) 2000-2026 the FFmpeg developers.
+https://ffmpeg.org/
+
+This software uses FFmpeg code licensed under the GNU Lesser General Public
+License version 2.1 or later (LGPL). The full license is in COPYING.LGPLv2.1.
+The unmodified corresponding source is supplied alongside this notice as
+ffmpeg-9.0.2.tar.xz. Component licensing details are in LICENSE.md and the
+source archive. FFmpeg is provided without warranty; see the license.
+
+The libraries are dynamically linked and embedded in Contents/Frameworks:
+libavformat, libavcodec, libavfilter, libavutil, libswscale, libswresample.
+No FFmpeg command-line programs are included or executed.
+
+Source: https://ffmpeg.org/releases/ffmpeg-9.0.2.tar.xz
+SHA-256: 8c3850283eb25fa026482078a04051e0be17347b09ef81a0849bec15a96e002e
+
+Build: Apple clang, macOS SDK, deployment target macOS 12.4, arm64 and x86_64.
+No GPL, nonfree or optional third-party dependencies were enabled. Automatic
+external-library discovery was disabled. Apple system frameworks, zlib,
+bzip2 and iconv are the only non-FFmpeg dependencies. The exact build commands
+are in build-ffmpeg.sh; run it with a destination directory to rebuild the
+libraries from the supplied source. Xcode signs the dylibs when embedding them.
+
+You may modify and replace these LGPL libraries for your own use and reverse
+engineer vplay as needed to debug those modifications, as permitted by the LGPL.
+For a local development copy, replace the corresponding dylibs under
+Contents/Frameworks and re-sign the app and libraries with your own development
+identity (or an ad-hoc signature for local use). The original distributor's
+signature cannot remain valid after a modification. No FFmpeg source changes
+were made by vplay.

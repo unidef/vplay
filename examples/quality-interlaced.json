@@ -1,0 +1,11 @@
+{
+  "audioSampleRate": "auto",
+  "deinterlace": true,
+  "inverseTelecine": false,
+  "fieldOrder": "auto",
+  "upscale": 2,
+  "scaler": "lanczos",
+  "effect": "none",
+  "rate": 1,
+  "volume": 0.8
+}

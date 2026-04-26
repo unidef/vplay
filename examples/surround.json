@@ -1,0 +1,13 @@
+{
+  "volume": 0.8,
+  "rate": 1,
+  "loop": false,
+  "mute": false,
+  "audioLayout": "5.1",
+  "effect": "none",
+  "shader": "",
+  "vf": "",
+  "af": "",
+  "ffplayArguments": [],
+  "ffmpegArguments": []
+}

@@ -1,0 +1,11 @@
+{
+  "audioSampleRate": "max",
+  "audioLayout": "auto",
+  "upscale": 2,
+  "scaler": "metal",
+  "deinterlace": false,
+  "inverseTelecine": false,
+  "effect": "none",
+  "rate": 1,
+  "volume": 0.8
+}

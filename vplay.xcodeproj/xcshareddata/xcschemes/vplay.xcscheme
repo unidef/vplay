@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "9999"
+   version = "1.7">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FCA28E822F9E29A3008C1D3C"
+               BuildableName = "Mac Video Player.app"
+               BlueprintName = "vplay"
+               ReferencedContainer = "container:vplay.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      shouldAutocreateTestPlan = "YES">
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "FCA28E822F9E29A3008C1D3C"
+            BuildableName = "Mac Video Player.app"
+            BlueprintName = "vplay"
+            ReferencedContainer = "container:vplay.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "FCA28E822F9E29A3008C1D3C"
+            BuildableName = "Mac Video Player.app"
+            BlueprintName = "vplay"
+            ReferencedContainer = "container:vplay.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+      <PostActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Configure Archive App Icon"
+               scriptText = "/usr/libexec/PlistBuddy -c &quot;Add :ApplicationProperties:IconPaths array&quot; &quot;$ARCHIVE_PATH/Info.plist&quot; 2&gt;/dev/null || true&#10;/usr/libexec/PlistBuddy -c &quot;Add :ApplicationProperties:IconPaths:0 string Applications/vplay.app/Contents/Resources/AppIcon.icns&quot; &quot;$ARCHIVE_PATH/Info.plist&quot; 2&gt;/dev/null || true&#10;">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "FCA28E822F9E29A3008C1D3C"
+                     BuildableName = "Mac Video Player.app"
+                     BlueprintName = "vplay"
+                     ReferencedContainer = "container:vplay.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Generate FFmpeg dSYMs"
+               scriptText = "for lib in &quot;$ARCHIVE_PATH&quot;/Products/Applications/vplay.app/Contents/Frameworks/*.dylib; do&#10;  name=$(basename &quot;$lib&quot;)&#10;  rm -rf &quot;$ARCHIVE_PATH/dSYMs/$name.dSYM&quot;&#10;  dsymutil &quot;$lib&quot; -o &quot;$ARCHIVE_PATH/dSYMs/$name.dSYM&quot; 2&gt;/dev/null || true&#10;done&#10;">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "FCA28E822F9E29A3008C1D3C"
+                     BuildableName = "Mac Video Player.app"
+                     BlueprintName = "vplay"
+                     ReferencedContainer = "container:vplay.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PostActions>
+   </ArchiveAction>
+</Scheme>

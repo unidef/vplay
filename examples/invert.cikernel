@@ -1,0 +1,3 @@
+kernel vec4 effect(__sample pixel) {
+    return vec4(pixel.a - pixel.rgb, pixel.a);
+}
